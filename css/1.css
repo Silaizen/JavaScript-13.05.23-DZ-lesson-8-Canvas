@@ -1,0 +1,58 @@
+body{
+    background-color: #FBF2E9;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+#canvas {
+    border: 1px solid #000;
+}
+
+.shape-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.shape-preview {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #B1B1B1;
+    margin-right: 10px;
+}
+
+.shape-circle {
+    background-color: #B1B1B1;
+    border-radius: 50%;
+}
+
+.shape-square {
+    background-color: #B1B1B1;
+}
+
+.shape-diamond {
+    width: 30px;
+  height: 30px;
+  border: 1px solid #B1B1B1;
+  transform: rotate(45deg);
+  background-color:#B1B1B1 ;
+}
+
+.shape-right-triangle {
+    
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-left: 40px solid #B1B1B1;
+        border-right: transparent;
+      
+}
+
+.main-container{
+    display: flex;
+    gap: 10px;
+}

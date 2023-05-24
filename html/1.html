@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/1.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="main-container">
+        <div class="shape-option">
+          <div class="shape-preview shape-circle"></div>
+          <input type="radio" name="shape" value="circle">
+          
+        </div>
+        <div class="shape-option">
+          <div class="shape-preview shape-square"></div>
+          <input type="radio" name="shape" value="square">
+          
+        </div>
+        <div class="shape-option">
+          <div class="shape-preview shape-diamond"></div>
+          <input type="radio" name="shape" value="diamond">
+         
+        </div>
+        <div class="shape-option">
+          <div class="shape-preview shape-right-triangle"></div>
+          <input type="radio" name="shape" value="right-triangle">
+          
+        </div>
+    </div>
+    <label for="color">Колір заливки:</label>
+    <input type="color" id="color">
+    <div id="canvas-container">
+        <canvas id="canvas"></canvas>
+    </div>
+
+
+    <script src="/js/1.js"></script>
+</body>
+</html>
